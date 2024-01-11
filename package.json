@@ -1,7 +1,7 @@
 {
   "name": "subassembly",
   "version": "1.0.0",
-  "description": "<center><strong><h1>subassembly Transfers</h1></strong></center>",
+  "description": "<center><strong><h1>Subassembly Transfers</h1></strong></center>",
   "main": "vu.js",
   "scripts": {
     "dev": "nodemon -e ejs,js,css -i .git/,node_modules/ -- sf.js",

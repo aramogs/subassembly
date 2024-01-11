@@ -1,11 +1,11 @@
-<center><strong><h1>subassembly Transfers</h1></strong></center>
+<center><strong><h1>Subassembly Transfers</h1></strong></center>
 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/aramogs/bts/master/public/img/tristone_logo_head.png" />
 </p>
 
-<center><p>Program dedicated to Transfers material from subassembly </p></center>
+<center><p>Program dedicated to Transfers material from Subassembly </p></center>
 <center><p>Users are able to load production plan and backflush material. </p></center>
 
 ### Installation
