@@ -1,0 +1,49 @@
+{
+  "name": "subassembly",
+  "version": "1.0.0",
+  "description": "<center><strong><h1>subassembly Transfers</h1></strong></center>",
+  "main": "vu.js",
+  "scripts": {
+    "dev": "nodemon -e ejs,js,css -i .git/,node_modules/ -- sf.js",
+    "start": "nodemon sf.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "amqplib": "^0.8.0",
+    "animate.css": "^4.1.0",
+    "axios": "^0.21.4",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^4.6.1",
+    "datatables": "^1.10.18",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "getmac": "^5.20.0",
+    "jquery": "^3.6.0",
+    "jquery-ui": "^1.13.1",
+    "js-datepicker": "^5.18.0",
+    "jshint": "^2.13.4",
+    "jsonwebtoken": "^8.5.1",
+    "macfromip": "^1.1.1",
+    "moment": "^2.29.2",
+    "mysql": "^2.18.1",
+    "node-sspi": "^0.2.9",
+    "popper.js": "^1.16.1",
+    "redis": "^3.1.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "dotenv": "^8.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "reload": "^3.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

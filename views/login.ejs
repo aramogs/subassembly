@@ -1,0 +1,42 @@
+<%- include ("./static/header") %>
+<%- include ("./static/sidebar") %>
+<%- include ("./static/navbar") %>
+
+
+<div class="container col-lg-4 mt-4">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 text-center">
+
+                <img class="logoSize" src="/img/TristoneLogo.png" alt="TristoneLogo" srcset="">
+           
+        </div>
+        <div class="col-4"></div>
+    </div>
+    <div class="row text-center">
+        <div class="col-12" >
+            <h4>Login <span id="sectionSpan"></span>  </h4>
+        </div>
+        <div class="col-12" >
+            <h4>subassembly</h4>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <hr>
+        <br>
+        <form id="submitPassword">
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping"><i class="far fa-id-badge"></i></span>
+                </div>
+                <input id="inputPassword" autocomplete="" type="password" class="form-control" placeholder="Contraseña" aria-describedby="addon-wrapping">
+            </div>
+        </form>
+        <div  class="alert alert-danger animate__flipOutX animate__animated role=" alert" id="alerta_prefijo">Contraseña incorrecta</div>
+    </div>
+</div>
+
+
+<%- include ("./static/footer") %>
+<script src="/js/functions/login.js"></script>
